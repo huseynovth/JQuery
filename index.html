@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="./main.js"></script>
+    <title>bizbud</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left"><span>BizBud</span></div>
+            <div class="middle">
+                <a href="#" id="home">Home</a>
+                <a href="#" id="Services">Services</a>
+                <a href="#" id="About">About</a>
+                <a href="#" id="Testimonials">Testimonials</a>
+                <a href="#" id="Clients">Clients</a>
+                <a href="#" id="Contact">Contact</a>
+            </div>
+            <div class="right">
+                <button class="callBtn myBtn">Call Now</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="section section1">
+                <h1 data-aos="fade-up">The Power of Good Advice</h1>
+                <p data-aos="fade-up">I'm a paragraph. Click here to add your own text and edit me.</p>
+                <button class="learnBtn myBtn" data-aos="fade-up">Learn More</button>
+            </div>
+            <div class="section section2" ref={servcesSection}>
+                <div class="top" data-aos="fade-up">
+                    <p>SERVICES</p>
+                    <h3>Taking Your Business to the Next Level</h3>
+                </div>
+                <div class="buttom11">
+                    <img src="./1122.png" alt="">
+                </div>
+            </div>
+            <div class="section section3">
+                <img src="./15.png" alt="">
+            </div>
+            <div class="section section4">
+                <div class="left">
+                    <p data-aos="fade-up" class="p1">About</p>
+                    <span data-aos="fade-up">Our Experts Are the Finest</span>
+                    <p data-aos="fade-up" class="p2">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                    <p data-aos="fade-up" class="p2">This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide.</p>
+                </div>
+                <div class="right">
+                    <img src="./second-background-img.webp" alt="">
+                </div>
+            </div>
+            <div class="section section5">
+                <div data-aos="fade-up" class="slideshow-container">
+                    <div class="mySlides fade">
+                        <p class="slideP">Testimonials</p>
+                        <h1>"I'm a testimonial. Click to <br> edit me and add text</h1>
+                        <span class="s1"> <strong>Josh Phillips</strong> </span> <br>
+                        <span>Company name</span>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <p class="slideP">Testimonials</p>
+                        <h1>"I'm a testimonial. Click to <br> edit me and add text</h1>
+                        <span class="s1"><strong>Gabriella Spring</strong></span> <br>
+                        <span>Company name</span>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <p class="slideP">Testimonials</p>
+                        <h1>"I'm a testimonial. Click to <br> edit me and add text</h1>
+                        <span class="s1"><strong>Louise Maxwell</strong></span> <br>
+                        <span>Company name</span>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="dotes" style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>  
+            </div>
+            <div class="section section6">
+                <img src="./dave.png" alt="">
+            </div>
+            <div class="section section7">
+                <div class="left">
+                    <p class="p1">CONTACT</p>
+                    <span>Let’s Work Together</span>
+                    <p class="p2" id="p2">500 Terry Francine St. San Francisco, CA 94158</p>
+                    <p class="p2">info@mysite.com</p>
+                    <p class="p2">Tel: 123-456-7890</p>
+                    <div class="icons">
+                        <img src="./in.webp" alt="">
+                        <img src="./facebook.webp" alt="">
+                        <img src="./twitter.webp" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <form action="">
+                        <div class="name-txt">
+                            <p>First Name</p>
+                            <p>Last Lame</p>
+                        </div>
+                        <div class="fullName">
+                            <input type="text" id="fname" name="fname">
+                            <input type="text" id="lname" name="lname">
+                        </div>
+                        <div class="mail"><p>Email*</p></div>
+                        <div class="mail-input">
+                            <input type="text">
+                        </div>
+                        <div class="message-txt"><p>Leave us a message...</p></div>
+                        <div class="message">
+                            <input type="text">
+                        </div>
+                    </form>
+                    <button class="submitBtn myBtn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="1" class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.4284905030127!2d49.851370575446644!3d40.377194958045514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d079efb5163%3A0xc20aa51a5f0b5e01!2sCode%20Academy!5e0!3m2!1sen!2saz!4v1684817253938!5m2!1sen!2saz" width="1150" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</body>
+
+<script src="node_modules/aos/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: white ;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.left > span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.middle a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: rgb(81, 81, 81);
+}
+.middle a:hover{
+    color: rgb(153, 60, 245);
+    transition: 300ms;
+}
+.myBtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(158, 63, 253);
+    font-size: 18px;
+}
+.myBtn:hover{
+    background-color: rgb(22, 22, 63);
+    transition: 500ms;
+}
+.section1{
+    background: url(./first-background-img.webp) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 650px;
+
+}
+.section1 > h1{
+    font-size: 70px;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.section1 >p{
+    font-size: 25px;
+    margin-left: 100px;
+    width: 450px;
+    color: rgb(104, 95, 109);
+    line-height:40px;
+}
+.learnBtn{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.buttom11 > img{
+    width:100%;
+    height:100%;
+}
+
+.section2 > .top{
+    text-align: center;
+    margin-top: 80px;
+}
+.section2 .top p{
+    color:rgb(158, 63, 253);
+    font-size: 16px;
+}
+.section2 .top h3{
+    font-size: 40px;
+    width: 500px;
+    margin-left: 33%;
+    margin-top: 30px;
+}
+.p1{
+    color:rgb(151, 63, 238);
+    font-weight: bold;
+}
+.p2{
+    font-size: 20px;
+    color: rgb(105, 96, 110);
+    line-height:30px;
+}
+.section3 > img {
+width: 1150px;
+height: 430px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.section4{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* z-index: 1; */
+}
+.section4 > .p1{
+    color:rgb(158, 63, 253);
+    font-size: 16px;
+}
+.section4 .left > span{
+    font-size: 40px;
+    top: 30px;
+    line-height: 60px;
+}
+.section4 .left{
+    width: 500px;
+    margin-left: 150px;
+}
+.section4 .right>img{
+    width: 700px;
+    height: 800px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+.section4 .left>.p2{
+    margin-top: 40px;
+}
+.maps{
+    width: 500px;
+    height: 50px;
+}
+.section5{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(158, 63, 253) ;
+    color: #fff;
+}
+
+.slideshow-container {
+    position: relative;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dotes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3100px;
+}
+.slideP{
+    position: absolute;
+    top: -100px;
+    left: 250px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.mySlides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.mySlides >h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.mySlides > .s1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section6 > .top{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(248, 240, 255);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: solid 2px white;
+}
+.section6 > img{
+    width: 100%;
+    height: 200px;
+}
+.section7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+    color: rgb(104, 93, 110);
+    background: url(./form-background.webp) no-repeat;
+}
+.section7 > .right{
+    width: 500px;
+}
+.section7 .right input:focus {
+    outline:none;
+}
+.fullName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-txt{
+    text-align: start;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#fname , #lname{
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(158, 63, 253);
+    font-size: 18px;
+    color: rgb(104, 95, 109);
+    margin-bottom: 15px;
+}
+.mail-input > input{
+    position: relative;
+    margin: 0px 0px 0px 0;
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+.message > input{
+    width: 500px;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid rgb(158, 63, 253);
+    font-size: 18px;
+    color: rgb(104, 95, 109);
+}
+
+.section7 .left> .p1{
+    margin-bottom: 40px;
+}
+.section7 .left  span{
+    color: rgb(22,22,63);
+}
+.section7 .left  #p2{
+    margin-top: 40px;
+}
+.icons{
+    margin-top: 40px;
+}
+.submitBtn{
+    margin-top: 30px;
+}
